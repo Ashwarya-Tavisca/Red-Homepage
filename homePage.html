@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>RED | HOMEPAGE</title>
+    <link rel="stylesheet" href="styleHome.css" type="text/css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <section class="orxe-header">
+            <section class="orxe-logo">
+                <figure>
+                    <img src="images\logoORX.jpg" alt="ORXeLogo" align="left">
+                </figure>
+            </section>
+            <section class="itinerary">
+                <a href="#"><span class="move">My Itinerary </span><span class="arrow">&#8250;</span></a>
+            </section>
+            <section class="orxe-right">
+                <nav class="current-user">
+                    <p class="current-user-details">John Smith <br> 500,000 Points </p>
+                    <section class="user-details">
+                        <a href="#">Rewards Home &nbsp; </a>
+                        <a href="#">Profile &nbsp; </a>
+                        <a href="#">My Trips &nbsp;</a>
+                        <a class="no-border" href="#">Sign Out</a>
+                    </section>
+                </nav>
+            </section>
+        </section>
+        <nav class="hovering">
+            <ul>
+				<li><a href="#" class="active">Flights</a></li>
+				<li><a href="#">Hotels</a></li>
+				<li><a href="#">Cars</a></li>
+				<li><a href="#">Activities</a></li>
+				<li><a href="#">Cruise Specials</a></li>
+				<li><a href="#">Deals</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+		<section class="search-module">
+			<article class="message-container">
+				<span>Spread your wings and discover new destinations!</span>
+				<a href="#">View Offers</a>
+			</article>
+			<article class="search-navigator">
+				<div class="center">
+					<a href="#">
+						<i class="fa fa-plane"></i>
+						<span>Flight</span>
+					</a>
+				</div>
+				<div class="center">
+					<a class="icon-styling" href="#">
+						<i class="fa fa-hotel"></i>
+						<span>Hotel</span>
+					</a>
+				</div>
+				<div class="center">
+					<a class="icon-styling" href="#">
+						<i class="fa fa-car"></i>
+						<span>Car</span>
+					</a> 
+				</div>
+				<div class="center">  
+					<a class="icon-styling" href="#">
+						<i class="fa fa-binoculars"></i>
+						<span>Activity</span>
+					</a >
+				</div>
+			</article>
+			<section class="search-form">
+				<h2>Search for Flights</h2>
+				<article class="button-container">
+					<button class="trip-selector">Round Trip</button>
+					<button class="trip-selector">one way</button>
+					<button class="trip-selector">multiple Destination</button>
+				</article>
+				<article class="location-selector">
+					<div class="city-selector">
+						<label for="Departure City">Departure City</label><br>
+						<input type="text" class="text-box" name="Departure City" placeholder="Airport or city" size="45">
+					</div >
+					<div class="city-selector">
+						<label for="Destination City">Destination City</label><br>
+						<input type="text" class="text-box" name="Destination City"  placeholder="Airport or city" size="45">
+					</div>
+					<div class="date-selector">
+						<label for="Departure Date">Departure Date</label><br>
+						<input type="date" class="text-box" name="Departure Date"  >
+					</div>
+					<div class="date-selector">
+						<label for="Return Date">Return Date</label><br>
+						<input type="date" class="text-box" name="Return Date" >
+					</div>
+				</article>
+				<article class="age-container">
+					<div>
+						<label for="Adults">Adults(18+)</label><br>
+						<select class = "list-options" >
+							<option value = "1">1</option>
+							<option value = "2">2</option>
+							<option value = "3">3</option>
+							<option value = "4">4</option>
+							<option value = "5">5</option>
+							<option value = "6">6</option>
+							<option value = "7">7</option>
+							<option value = "8">8</option>
+							<option value = "9">9</option>
+						</select>
+					</div>
+					<div>
+						<label for="Youths">Youths(12-17)</label><br>
+						<select class = "list-options" >
+							<option value = "0">0</option>
+							<option value = "1">1</option>
+							<option value = "2">2</option>
+							<option value = "3">3</option>
+							<option value = "4">4</option>
+							<option value = "5">5</option>
+							<option value = "6">6</option>
+							<option value = "7">7</option>
+							<option value = "8">8</option>
+							<option value = "9">9</option>
+						</select>
+					</div>
+					<div>
+						<label for="Childrens">Childrens(0-11)</label><br>
+						<select class = "list-options" >
+							<option value = "0">0</option>
+							<option value = "1">1</option>
+							<option value = "2">2</option>
+							<option value = "3">3</option>
+							<option value = "4">4</option>
+							<option value = "5">5</option>
+							<option value = "6">6</option>
+							<option value = "7">7</option>
+							<option value = "8">8</option>
+							<option value = "9">9</option>
+						</select>
+					</div>
+				</article>
+				<div class="age-info">
+					<a href="#">Age Information</a>
+				</div>
+				<div class="more-options">
+					<a href="#">More Options++</a>
+				</div>
+				<div class="search-container">
+					<button class="search-button">SEARCH FLIGHTS</button>
+				</div>
+			</section>
+		</section>
+		<section class="flex">
+			<a href="#"><img class="image" src="images\carAd.png" alt="carAdLogo"></a>
+			<a href="#"><img class="image" src="images\shipAd.jpg" alt="shipAdLogo"></a>
+			<a href="#"><img class="image" src="images\airAd.jpg" alt="airAdLogo"></a>
+		</section>
+		<p class="deal"> DEAL FINDER</p>
+		<section class="container">
+			<div class="inner">
+				<input type="search" class="search-box" placeholder="search to find the best deals" />
+				<input type="submit" class="submit" value="SEARCH"/>
+			</div>
+			<p>Filter Results</p>
+			<div class="service-outer">
+				<a href="#"><div class="service active-service"><i class="material-icons left">hotel</i><span class="center">HOTEL</span><i class="material-icons right">done</i></div></a>
+				<a href="#"><div class="service"><i class="material-icons left">directions_car</i><span class="center">CAR</span><i class="material-icons right">stop</i></div></a>
+				<a href="#"><div class="service"><i class="material-icons left">shopping_basket</i><span class="center">CRUISE</span><i class="material-icons right">stop</i></div></a>
+			</div>
+			<table cellspacing="0";>
+				<thead>
+					<tr>
+						<th>Destination</th>
+						<th>Name</th>
+						<th>Valid Through</th>
+						<th>Offer</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="row">
+						<td width="25%";>Fort Myers Beach, US</td>
+						<td width="35%";><a href="#">Wyndham Garden Fort Myers Beach</a></td>
+						<td width="15%";>Jul 30, 2018</td>
+						<td width="25%";><a href="#">Save Up To 20%</a></td>
+					</tr>
+					<tr>
+						<td>Orlando, US</td>
+						<td><a href="#">WorldQuest Orlando Resort</a></td>
+						<td>Aug 10, 2018</td>
+						<td><a href="#">Save Up To 25%</a></td>
+					</tr>
+					<tr>
+						<td>New York, US</td>
+						<td><a href="#">Sheraton New York Times Square Hotel</a></td>
+						<td>Aug 30, 2018</td>
+						<td><a href="#">Save Up To 25%</a></td>
+					</tr>
+					<tr>
+						<td>New York City, US</td>
+						<td><a href="#">Courtyard By Marriott New York Manhattan/Times Square</a></td>
+						<td>Aug 30, 2018</td>
+						<td><a href="#">Up To 25% Off</a></td>
+					</tr>
+					<tr>
+						<td>Puerto Vallarta, MX</td>
+						<td><a href="#">The Westin Resort & Spa Puerto Vallarta</a></td>
+						<td>Aug 30, 2018</td>
+						<td><a href="#">Up To 40% Off</a></td>
+					</tr>
+			</table>
+		</section>
+		<aside>
+			<div class="load">    
+				<a href="#">Load More</a>
+			</div>
+			<section class="las-vegas">
+				<ul>
+					<li><p class="lasvegas-para">Play all day and all night! Great Las Vegas hotel deals.<a class="view-offers"href="#">View Offers</a></p></li>
+				</ul>
+			</section>
+		</aside>
+	</main>
+	<footer>
+		<nav class="footer-navigation">
+			<section class="main-navigation">
+				<p class="footer-heading"> Main Navigation</p>
+				<ul class="main-nav">
+					<li><a href="#">Flights</a></li>
+					<li><a href="#">Hotels</a></li>
+					<li><a href="#">Cars</a></li>
+					<li><a href="#">Activities</a></li>
+					<li><a href="#">Cruise Specials</a></li>
+					<li> <a href="#">Deals</a></li>
+				</ul>
+			</section>
+			<section class="other-links">
+				<p class="footer-heading"> Other Links </p>
+				<ul class="footer-head">
+					<li><a href="#">Frequently Asked Questions</a></li>
+					<li><a href="#">Seller Of Travel</a></li>
+					<li><a href="#">Website Terms Of Use</a></li>
+					<li><a href="#">Travel Terms & Conditions</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</section>
+		</nav>  
+	</footer>  
+</body>
+</html>
